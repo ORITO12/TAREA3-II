@@ -1,0 +1,22 @@
+Realiza un programa que pide un nombre y un apellido y muestre el siguiente mensaje en terminal:  HUGO OROPEZA TERRAZAS
+
+import java.util.Scanner;
+
+public class nombreyaperllido
+{
+   public static void main (String [] args){
+       Scanner add = new Scanner (System.in);
+       
+       System.out.println("Escribe tu nombre");
+       
+       String primero = add.next(); 
+       
+       System.out.println("Escribe tu apellido");
+       
+       String segundo = add.next(); 
+       
+       System.out.println("Mi nombre es " + primero);
+       System.out.println("Mi apellido es " + segundo);
+   }
+    
+}
